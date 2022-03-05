@@ -1,0 +1,141 @@
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.leaderboard {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #242a42;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000000;
+}
+.leaderboard-title{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+}
+.leaderboard-triple{
+    display: flex;
+    background: #0e1a2f;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.all-triple{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00ffba;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.all-triple img{
+    background: #fff;
+    border-radius: 50%;
+}
+.first{
+    z-index: 2;
+    color: #FFD700;
+}
+.first img{
+    width: 85%;
+    height: auto;
+    border: 5px solid #FFD700;
+    box-shadow: 0 0 20px #FFD700;
+}
+.second{
+    font-size: 1.6rem;
+    color: #C0C0C0;
+}
+.second img{
+    width: 75%;
+    height: auto;
+    border: 5px solid #C0C0C0;
+    box-shadow: 0 0 20px #C0C0C0;
+}
+.third{
+    font-size: 1.4rem;
+    color: #cd7f32;
+}
+.third img{
+    width: 64%;
+    height: auto;
+    border: 5px solid #cd7f32;
+    box-shadow: 0 0 20px #cd7f32;
+}
+.all-triple-name{
+ 
+}
+.leaderboard-content{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.leaderboard-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 10px 0px 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #0e1a2f;
+    margin-bottom: 10px;
+}
+.user-title p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #35d8ac;
+    padding-top: 8px;
+}
+.leaderboard-user-count-title p{
+    text-align: left;
+}
+.leaderboard-user-name-title p{
+    text-align: left;
+}
+.leaderboard-user-point-title p{
+    text-align: right;
+}
+.leaderboard-user-SLA-title p{
+    text-align: center;
+}
+.leaderboard-user-country-title p{
+    text-align: right;
+}
+/* ********************************************** */
+
+.user-info p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #88b5a9;
+    padding-top: 8px;
+}
+.leaderboard-user-count p{
+    text-align: left;
+}
+.leaderboard-user-name p{
+    text-align: left;
+}
+.leaderboard-user-point p{
+    text-align: right;
+}
+.leaderboard-user-SLA p{
+    text-align: center;
+}
+.leaderboard-user-country p{
+    text-align: right;
+}
+@media (max-width:540px){
+    .user-title p{
+        font-size: 0.8rem;
+    }
+    .user-info p {
+        font-size: 0.8rem;
+    }
+}
